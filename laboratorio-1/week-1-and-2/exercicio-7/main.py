@@ -1,5 +1,3 @@
-
-
 def main():
     nota_trabalho = int(input("Digite a nota do trabalho... "))
     nota_prova = int(input("Digite a nota da prova... "))
