@@ -1,4 +1,4 @@
-# Exercicio 6
+# Exercicio 7
 
 Contexto: uma disciplina possui apenas 3 avaliacoes:
 + O trabalho que vale 10% da nota
