@@ -1,9 +1,11 @@
 
 def main():
     nome_rua = input("Digite sua rua... ")
-    cep = input("Digite seu CEP (Exemplo 91444-221) ... ")
     complemento = input("Digite seu complemento... ")
+    
+    cep = input("Digite seu CEP (Exemplo 91444-221) ... ")
     bairro = input("Digite seu bairro... ")
+    
     estado = input("Digite seu estado... ")
     cidade = input("Digite sua cidade... ")
     
