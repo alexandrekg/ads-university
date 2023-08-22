@@ -17,5 +17,6 @@ def main():
     
     print(f"A nota final do aluno eh: {nota_final}")
 
+
 if __name__ == "__main__":
     main()
