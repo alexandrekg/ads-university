@@ -1,17 +1,21 @@
+import math
+
 
 def main():
-    numero1 = int(input("Digite o numero 1... "))
-    numero2 = int(input("Digite o numero 2... "))
-    numero3 = int(input("Digite o numero 3... "))
-    numero4 = int(input("Digite o numero 4... "))
-    numero5 = int(input("Digite o numero 5... "))
+    a = int(input("Digite um numero inteiro... "))
+    b = int(input("Digite o segundo numero inteiro... "))
+    c = int(input("Digite o terceiro numero inteiro... "))
+    d = int(input("Digite o quarto numero inteiro... "))
+    e = int(input("Digite o quinto numero inteiro... "))
     
-    soma = numero1 + numero2 + numero3 + numero4 + numero5
-    produto = numero1 * numero2 * numero3 * numero4 * numero5
+    area_triangulo = (b * c) / 2
+    print(f"A area do triangulo eh: {area_triangulo}")
     
-    print(f"A soma dos numeros eh: {soma}")
-    print(f"O produto dos numeros eh: {produto}")
+    perimetro_retangulo = a + b + c + d
+    print(f"O perimetro do retangulo eh {perimetro_retangulo}")
     
+    area_circulo = math.pi * (e ** 2)
+    print(f"A area do circulo eh: {area_circulo}")
 
 if __name__ == "__main__":
     main()
