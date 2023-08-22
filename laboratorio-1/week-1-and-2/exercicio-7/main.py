@@ -1,21 +1,21 @@
-import math
 
 
 def main():
-    a = int(input("Digite um numero inteiro... "))
-    b = int(input("Digite o segundo numero inteiro... "))
-    c = int(input("Digite o terceiro numero inteiro... "))
-    d = int(input("Digite o quarto numero inteiro... "))
-    e = int(input("Digite o quinto numero inteiro... "))
+    nota_trabalho = int(input("Digite a nota do trabalho... "))
+    nota_prova = int(input("Digite a nota da prova... "))
+    nota_teste = int(input("Digite a nota do teste... "))
     
-    area_triangulo = (b * c) / 2
-    print(f"A area do triangulo eh: {area_triangulo}")
+    peso_nota_trabalho = 0.1
+    peso_nota_prova = 0.6
+    peso_nota_teste = 0.3
     
-    perimetro_retangulo = a + b + c + d
-    print(f"O perimetro do retangulo eh {perimetro_retangulo}")
+    nota_representativa_trabalho = peso_nota_trabalho * nota_trabalho
+    nota_representativa_prova = peso_nota_prova * nota_prova
+    nota_representativa_teste = peso_nota_teste * nota_teste
     
-    area_circulo = math.pi * (e ** 2)
-    print(f"A area do circulo eh: {area_circulo}")
+    nota_final = nota_representativa_trabalho + nota_representativa_prova + nota_representativa_teste
+    
+    print(f"A nota final do aluno eh: {nota_final}")
 
 if __name__ == "__main__":
     main()
