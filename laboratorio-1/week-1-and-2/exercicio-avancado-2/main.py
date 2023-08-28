@@ -1,5 +1,3 @@
-import math
-
 
 def main():
     a = int(input("Digite o primeiro numero inteiro... "))
