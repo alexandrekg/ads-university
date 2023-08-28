@@ -1,3 +1,3 @@
 # Exercicio 1
 
-+ Programe o codigo para o fluxograma da imagem1
++ Crie um programa que recebe um inteiro pelo teclado e imprime se ele é par ou ímpar.
