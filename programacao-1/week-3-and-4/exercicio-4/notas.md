@@ -1,4 +1,4 @@
-# Exercicio 1
+# Exercicio 4
 
 + Crie um programa que recebe a nota do Grau A e a nota do Grau B
     + Imprimir se sera necessario ou nao realizar o Grau C
