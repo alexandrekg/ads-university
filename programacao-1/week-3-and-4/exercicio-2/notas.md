@@ -1,4 +1,4 @@
-# Exercicio 1
+# Exercicio 2
 
 + Crie um programa que recebe dois valores inteiros A e B 
 + Imprima o valor de A dividido por B. 
