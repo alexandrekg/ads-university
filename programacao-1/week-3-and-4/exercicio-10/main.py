@@ -1,10 +1,10 @@
 
 
 def main():
-    contador = 0
-    while contador <= 2000:
+    contador = 1000
+    while contador >= 0:
         print(contador)
-        contador += 1
+        contador -= 1
 
 
 if __name__ == "__main__":
