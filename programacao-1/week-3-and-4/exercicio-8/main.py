@@ -1,12 +1,10 @@
 
 
 def main():
-    letra = input("Digite uma letra...  ")
-    
-    if letra.lower() in ['a', 'e', 'i', 'o', 'u']:
-        print('A letra eh uma vogal')
-    else:
-        print('A letra eh uma consoante')
+    contador = 0
+    while contador <= 1000:
+        print(contador)
+        contador += 1
 
 
 if __name__ == "__main__":
