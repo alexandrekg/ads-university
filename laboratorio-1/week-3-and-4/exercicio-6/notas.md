@@ -1,4 +1,4 @@
-# Exercicio 7
+# Exercicio 6
 
 
 + Crie um programa que recebe um valor inteiro referente a um determinado ano
