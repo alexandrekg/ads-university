@@ -1,10 +1,16 @@
 
 
 def main():
-    numero_1 = int(input("Digite um numero inteiro... "))
-    numero_2 = int(input("Digite outro numero inteiro..."))
+    preco_produto = float(input("Digite o preco do produto... "))
     
-    print(f"Dentre os numeros que voce passou, o maior eh: {numero_1 if numero_1 > numero_2 else numero_2}")
+    if preco_produto <= 0:
+        print("Preco invalido!")
+    elif preco_produto <= 30:
+        print("Preco baixo")
+    elif preco_produto <= 50:
+        print("Preco medio")
+    else:
+        print("Preco alto")    
 
 if __name__ == "__main__":
     main()
