@@ -1,10 +1,11 @@
-
-
 def main():
-    numero_1 = int(input("Digite um numero inteiro... "))
-    numero_2 = int(input("Digite outro numero inteiro..."))
+    letra = input("Digite uma letra... ")
     
-    print(f"Dentre os numeros que voce passou, o maior eh: {numero_1 if numero_1 > numero_2 else numero_2}")
+    if letra.lower() in ["a", "e", "i", "o", "u"]:
+        print("A letra que voce digitou eh uma vogal!")
+    else:
+        print("A letra que voce digitou eh uma consoante!")
+        
 
 if __name__ == "__main__":
     main()
