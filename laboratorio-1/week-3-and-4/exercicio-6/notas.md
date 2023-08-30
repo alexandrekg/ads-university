@@ -1,4 +1,4 @@
-# Exercicio 7
+# Exercicio 6
 
 
 + Crie um programa que aplica uma taxa de juros em um determinado preço 
