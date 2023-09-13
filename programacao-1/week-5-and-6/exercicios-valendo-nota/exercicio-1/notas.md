@@ -29,7 +29,7 @@
 
 # Selecione a resposta:
 - A - Nenhuma das alternativas está correta.
-- B - Atributos, construtor, recebeVoto, três, new, Candidato
+- (Correta) B - Atributos, construtor, recebeVoto, três, new, Candidato
 - C - Atributos, construtor, recebeVoto, três, new, String
 - D - Variáveis, método, recebeVoto, dois, new, String
 - E - Variáveis, construtor, recebeVoto, três, new, String
