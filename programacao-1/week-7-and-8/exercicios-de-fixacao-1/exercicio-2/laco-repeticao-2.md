@@ -1,17 +1,16 @@
 ## Antes
 ```
-int x = 10;
+int y = 100;
 
-while(x < 100){
-    System.out.println(x);
-    x++;
-}
+while(y >= 0)
+
+    System.out.println(y--);
 ```
 
 
 ## Depois
 ```
-for (var x = 10; x < 100; x++) {
-    System.out.println(x);
+for (var y = 100; y >= 0; y--) {
+    System.out.println(y);
 }
 ```
