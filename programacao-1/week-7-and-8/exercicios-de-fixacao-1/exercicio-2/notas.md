@@ -1,0 +1,1 @@
+# Exercício 2. Transforme cada trecho de código abaixo em um laço for correspondente.

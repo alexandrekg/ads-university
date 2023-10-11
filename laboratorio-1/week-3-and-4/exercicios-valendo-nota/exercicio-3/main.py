@@ -8,4 +8,3 @@ elif turno == "N" or turno == "n":
     print("boa noite!")
 else:
     print("turno inválido!")
-    
