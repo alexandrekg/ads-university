@@ -6,11 +6,14 @@ import meuprojetoteste1.Teclado;
 public class App {
 
 	public static void main(String[] args) {
-		int idade = Teclado.leInt("Informe a sua idade: ");
-		
-		Pessoa p = new Pessoa(idade);
+		Pessoa p = new Pessoa(Teclado.leInt("Informe a sua idade: "));
 
-		System.out.println("A sua idade eh: " + p.getIdade());
+		int idade = p.getIdade();
+
+		if (idade >= 18) {
+			System.out.println("Maior de idade");
+		} else {
+			System.out.println("Menor de idade");
+		}
 	}
-
 }
