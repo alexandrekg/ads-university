@@ -1,17 +1,29 @@
 package meuprojetoteste1;
 
+import meuprojetoteste1.Cor;
+
 public class Caneta {
-	private String caneta;
+	private String marca;
+    private Cor cor;
 	
-	public Caneta(int caneta) {
-        this.caneta = caneta;
+	public Caneta(String marca, Cor cor) {
+        this.marca = marca;
+        this.cor = cor;
     }
 
-    public int getCaneta(){
-        return caneta;
+    public String getMarca(){
+        return marca;
     }
 
-    public void setCaneta(int caneta){
-        this.caneta = caneta;
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+
+    public Cor getCor(){
+        return cor;
+    }
+
+    public void setCor(Cor cor){
+        this.cor = cor;
     }
 }
