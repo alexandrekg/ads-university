@@ -1,1 +1,1 @@
-Exercício 7. Escreva um trecho de código que solicita que o usuário digite 1 valor inteiro positivo. O trecho de código deve solicitar que ele digite um novo valor sempre que digitar um valor 0 ou negativo.
+Exercício 8. Suponha a existência de uma classe chamada Cor e uma classe chamada Caneta. Crie uma classe Estojo, que possui uma cor (objeto do tipo Cor) e capacidade de armazenar 2 canetas (objetos do tipo Caneta). Inclua na sua classe um construtor de Estojo que receba a cor e as canetas por parâmetro, bem como os métodos de acesso dos atributos cor e caneta.
