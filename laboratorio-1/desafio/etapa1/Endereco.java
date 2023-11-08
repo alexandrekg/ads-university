@@ -1,4 +1,4 @@
-package laboratorio1desafio;
+package etapa1;
 
 public class Endereco {
     private String nomeDaRua;

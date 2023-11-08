@@ -1,3 +1,5 @@
+package etapa1;
+
 public class ValidadorEtapa1 {
 
 	public static void main(String[] args){
